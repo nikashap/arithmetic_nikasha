@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arithmetic_nikasha"
+version = "0.0.1"
+authors = [
+    {name = "Nikasha", email = "nikashap@gmail.com"},
+    ]
+description = "A small example package with arithmetic operations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+]
+
+keywords = ["arithmetic", "example", "nikasha"]
+
+[project.urls]
+Homepage = "https://github.com/nikashap/arithmetic_nikasha"
+Issues = "https://github.com/nikashap/arithmetic_nikasha/issues"
